@@ -12,6 +12,7 @@
 		8E3F2BCA21573CB000B38E29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3F2BC821573CB000B38E29 /* Main.storyboard */; };
 		8E3F2BCC21573CB000B38E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3F2BCB21573CB000B38E29 /* Assets.xcassets */; };
 		8E3F2BCF21573CB000B38E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3F2BCD21573CB000B38E29 /* LaunchScreen.storyboard */; };
+		8EE168E8215752210026C622 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EE168E7215752210026C622 /* GoogleService-Info.plist */; };
 		F545B8EEE8E253865E96AC12 /* Pods_Donation_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE3D700859C335B1C8DF61D /* Pods_Donation_Tracker.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +26,7 @@
 		8E3F2BCB21573CB000B38E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E3F2BCE21573CB000B38E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E3F2BD021573CB000B38E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E3F2BD72157425900B38E29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8EE168E7215752210026C622 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DACB965F130C7129239F2CB8 /* Pods-Donation-Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Donation-Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Donation-Tracker/Pods-Donation-Tracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,10 +63,10 @@
 		8E3F2BC321573CB000B38E29 /* Donation-Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				8EE168E7215752210026C622 /* GoogleService-Info.plist */,
 				8E3F2BC421573CB000B38E29 /* AppDelegate.swift */,
 				8E3F2BC621573CB000B38E29 /* ViewController.swift */,
 				8E3F2BC821573CB000B38E29 /* Main.storyboard */,
-				8E3F2BD72157425900B38E29 /* GoogleService-Info.plist */,
 				8E3F2BCB21573CB000B38E29 /* Assets.xcassets */,
 				8E3F2BCD21573CB000B38E29 /* LaunchScreen.storyboard */,
 				8E3F2BD021573CB000B38E29 /* Info.plist */,
@@ -152,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E3F2BCF21573CB000B38E29 /* LaunchScreen.storyboard in Resources */,
+				8EE168E8215752210026C622 /* GoogleService-Info.plist in Resources */,
 				8E3F2BCC21573CB000B38E29 /* Assets.xcassets in Resources */,
 				8E3F2BCA21573CB000B38E29 /* Main.storyboard in Resources */,
 			);
@@ -165,15 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Donation-Tracker-checkManifestLockResult.txt",
 			);
@@ -187,16 +185,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Donation-Tracker/Pods-Donation-Tracker-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
